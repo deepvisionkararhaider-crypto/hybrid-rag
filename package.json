@@ -1,0 +1,13 @@
+{
+  "name": "vanilla-rag",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "bash tests/smoke.sh"
+  },
+  "dependencies": { "hono": "^4.13.8" },
+  "devDependencies": { "wrangler": "^4.110.0" }
+}

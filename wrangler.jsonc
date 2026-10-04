@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hybrid-rag",
+  "main": "src/worker.js",
+  "compatibility_date": "2024-11-01",
+  "ai": { "binding": "AI" },
+  "vars": { "LLM_MODEL": "openai/gpt-oss-120b" },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "hybrid-rag-db", "database_id": "bf98307a-88f1-493e-b629-f0e418e2884a" }
+  ]
+}
